@@ -1,0 +1,16 @@
+<!-- *** -->
+<!-- [NOTE][ISSUE] : Two diff mat-grid-list configs viz. 'cols' and 'rowHeight'
+                      are needed to support tablet and mobile -->
+<mat-grid-list cols="2" rowHeight="4:6">
+<!-- <mat-grid-list cols="3" rowHeight="2:3"> -->
+  <mat-grid-tile>
+    <mat-card (click)="groupClicked()">
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          Take Shiba to vet his not feeling well
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

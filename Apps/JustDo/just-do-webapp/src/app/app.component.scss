@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+div.app-bkg{
+  position: fixed;
+  max-width: 100vw;
+  max-height: 100vh;
+
+  img{
+    height: 100vh;
+    transform: translate(-50%);
+    object-fit: fill;
+
+    filter: brightness(80%);
+  }
+}
+
+div.application{
+  position: relative;
+  h2{
+    margin: 0 0 0 50vw;
+    transform: translate(-25%, 10vh);
+    color: #ffffff99;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+  }
+  #btn-cont {
+    position: fixed;
+    left: 75vw;
+    bottom: 10vh;
+  }
+  #btn-cont button{
+    width: 80px;
+    height: 80px;
+    background-color: #de3163;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.application{
+
+    h2{
+      transform: translate(-50%, 10vh);
+      margin: 0 0 0 50%;
+      width: 150px;
+      font-size: 20px;
+    }
+
+    #btn-cont button{
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

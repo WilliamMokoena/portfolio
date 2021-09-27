@@ -1,0 +1,32 @@
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*
+fonts:
+- caveat
+- montserrat
+- roboto
+- archivo
+
+colors
+- 555555
+- 424242 70%
+- FFFFFF 50%
+*/
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-checkbox label.mat-checkbox-layout span.mat-checkbox-label {
+  word-wrap: break-word;
+  white-space: break-spaces;
+}

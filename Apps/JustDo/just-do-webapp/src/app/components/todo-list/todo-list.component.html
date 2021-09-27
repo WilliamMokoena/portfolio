@@ -1,0 +1,9 @@
+<div class="input-list">
+  <input matInput placeholder="Add a task"/>
+
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let task of tasks">
+      <mat-checkbox>{{task}}</mat-checkbox>
+    </mat-list-item>
+  </mat-list>
+</div>

@@ -1,0 +1,37 @@
+
+div.input-list {
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  left: 50vw;
+  transform: translate(-50%, 20vh);
+  background-color: #424242b3;
+  border-radius: 20px;
+  backdrop-filter: blur(1px);
+
+  input {
+    position: relative;
+    background-color: #555555;
+    top: 40px;
+    left: 30vw;
+    transform: translate(-50%);
+    width: 50vw;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+  }
+
+  mat-list {
+    width: 50vw;
+    height: 40vh;
+    margin: 5vh 5vw;
+    overflow-y: scroll;
+  }
+
+  mat-list mat-list-item{
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+
+mat-grid-list {
+  position: absolute;
+  width: 70vw;
+  height: auto;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%);
+
+  mat-grid-tile mat-card{
+    height: 70%;
+    width: 60%;
+    background-color: #424242cc;
+
+    img {
+      filter: brightness(90%);
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  mat-grid-list{
+    width: 90vw;
+
+    mat-grid-tile mat-card{
+      height: 70%;
+      width: 65%;
+
+      mat-card-content{
+        font-size: 14px;
+      }
+    }
+  }
+
+  mat-grid-tile{
+    // ****
+    // [NOTE][ISSUE]: Fix scrolling. The problem is due to 'overflow' being
+    // disabled globally.
+    // border: 2px solid black;
+  }
+}

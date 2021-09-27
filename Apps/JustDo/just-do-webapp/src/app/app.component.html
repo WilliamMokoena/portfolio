@@ -1,0 +1,17 @@
+<app-top-logo-bar></app-top-logo-bar>
+<div class="app-bkg">
+  <img src="assets/images/thewonderalice.jpg">
+</div>
+
+<div class="application">
+  <h2>| Tue 21 Mar 21</h2>
+
+  <div id="btn-cont">
+     <button mat-fab color="primary" aria-label="add icon">
+       <mat-icon>add</mat-icon>
+     </button>
+   </div>
+
+   <app-tasks-group (groupClickedEventEmitter)="groupClickedEventHandler($event)"></app-tasks-group>
+   <!-- <app-todo-list></app-todo-list> -->
+</div>
